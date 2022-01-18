@@ -1,5 +1,4 @@
-const rectangle = require('./rectangle');
-const rect = require('./rectangle');
+import { rectangle as rect } from './rectangle.js'
 
 function solveRect(l, w) {
     console.log(`Solving for rectangle with dimensions: ${l}, ${w}`);
